@@ -1,0 +1,20 @@
+nome: {
+	Armadura de Câncer
+}
+
+descricao: {
+	O cavaleiro de Câncer possui a habilidade de remover a alma do seu oponente
+e enviá-la para a entrada do Mundo dos Mortos.[
+}
+
+usuários:{
+	Lancelot, Manigold, Máscara da Morte, Sage
+}
+
+background: {
+	
+}
+
+imagem: {
+	
+}

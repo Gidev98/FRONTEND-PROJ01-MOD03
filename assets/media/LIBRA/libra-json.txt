@@ -1,0 +1,22 @@
+nome: {
+	Armadura de Libra
+}
+
+descricao: {
+
+	A Armadura de Libra possui acoplada nela seis tipos diferentes de armas
+	que só podem ser usadas se o Cavaleiro de Libra e Atena acharem a causa justa.
+
+}
+
+usuários:{
+	Dohko, Shiryu, Genbu
+}
+
+background: {
+	
+}
+
+imagem: {
+	
+}

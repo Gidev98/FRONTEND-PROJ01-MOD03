@@ -1,0 +1,22 @@
+nome: {
+	Armadura de Capricórnio
+}
+
+descricao: {
+
+	O poder máximo de Capricórnio, no qual seus braços e pernas
+adquirem o mesmo poder de corte que a lendária espada Excalibur,
+cortando tudo que for tocado.
+}
+
+usuários:{
+	Shura, Izo, El Cid, Ionia
+}
+
+background: {
+	
+}
+
+imagem: {
+	
+}

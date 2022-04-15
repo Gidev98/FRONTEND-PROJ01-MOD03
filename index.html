@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armaduras Sagradas</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="assets/media/logo/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="/index.html"> <img src="./assets/media/logo/cdz-logo.png" alt="cdz-logo"></a>
+            
+        </div> 
+    </header>
+    <main>
+        <section class="btn-modal-create">
+            <button type="button" onclick="abrirCadastro()">Cadastrar Armadura</button>
+        </section>
+        <section class="modal-overlay" id="overlay">
+        
+            <div class="card-modal">
+
+                <div class="card-modal-header">
+                <h2 id="titulo-modal">Cadastrar Nova Armadura</h2>
+                <a onclick="fecharCadastro()"><img src="https://img.icons8.com/fluency/48/000000/delete-sign.png" /></a>
+                </div>
+
+                <div class="card-modal-body">
+                <form action="">
+                    <input type="hidden" id="id">
+                    <input type="text" name="nome" id="nome" placeholder="Nome da Armadura">
+                    <input type="text" name="descricao" id="descricao" placeholder="Descrição">
+                    <input type="text" name="usuarios" id="usuarios" placeholder="Usuários da Armadura">
+                    <input type="text" name="background" id="background" placeholder="URL da imagem de background">
+                    <input type="text" name="imagem" id="imagem"
+                    placeholder="URL da imagem da Armadura">
+                    <button id= "btn-modal" onclick="createArmadura()">Cadastrar</button>
+                </form>
+                </div>
+        
+            </div>
+        
+        </section>
+        <section class="modal-overlay" id="overlay-del">
+            <div class="card-modal">
+
+                <div class="card-modal-header">
+                    <h2 id="titulo-modal">Confirmar Deleção de Armadura</h2>
+                    <a onclick="fecharDelete()"><img src="https://img.icons8.com/fluency/48/000000/delete-sign.png" /></a>
+                </div>
+
+                <div class="card-modal-body-del">
+                    <p>Deseja realmente apagar essa Armadura?</p>
+                    <div class="btns-del">
+                        <button class="btn-n" onclick="fecharDelete()">Não</button>
+                        <button class="btn-s">Sim</button>
+                    </div>                   
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="Home">
+            <h2> ARMADURA SELECIONADA:</h2>
+            <div class="container_selecao">
+                <div class="sub_container">
+                    <input type="number" id="id_arm" placeholder="Digite o ID da Armadura">
+                    <button id="btn_arm" onclick="armadurasByID()">Selecionar</button>
+                </div>
+                <div id="arm_selecionada">                
+                </div>             
+            </div>
+        
+        
+
+      
+            <h2>COLEÇÃO DE ARMADURAS</h2>
+            <div class="card_container" id="container">
+            </div>     
+        </section>
+    </main>
+    <footer>
+        <p>All right reserved by &copy; David D. Dos Santos</p>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>

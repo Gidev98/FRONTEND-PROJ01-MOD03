@@ -1,0 +1,22 @@
+nome: {
+	Armadura de Áries
+}
+
+descricao: {
+
+	A Armadura de Áries, é uma das 13 Armaduras de Ouro do exército de Atena.
+O cavaleiro de Áries é o único que consegue consertar as 88 armaduras dos cavaleiros.
+
+}
+
+usuários:{
+	Avenir, Gateguard, Kiki, Mu, Shion
+}
+
+background: {
+	
+}
+
+imagem: {
+	
+}

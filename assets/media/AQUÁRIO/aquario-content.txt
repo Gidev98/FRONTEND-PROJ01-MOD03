@@ -1,0 +1,21 @@
+nome: {
+	Armadura de Aquário
+}
+
+descricao: {
+
+	A armadura de Aquário é a única capaz de atingir o limite máximo do congelamento, o zero absoluto.
+
+}
+
+usuários:{
+	Camus, Dégel, Koh-í-noor, Tokisada, Mystoria
+}
+
+background: {
+	
+}
+
+imagem: {
+	
+}
