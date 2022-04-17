@@ -11,7 +11,7 @@ async function findAllArmaduras() {
          <div class= "card" id="card_${armadura.id}">
 
             <img class="arm_imagem" src="${armadura.imagem}" alt="armadura sagrada">
-            <div>
+            <div class="content-card">
                 <div class="arm_nome">${armadura.nome}</div>
                 <div class="arm_usuarios">Usuários: ${armadura.usuarios}</div>
                  <div class="btns-card">
